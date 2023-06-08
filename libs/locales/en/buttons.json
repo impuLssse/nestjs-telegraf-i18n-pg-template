@@ -1,0 +1,15 @@
+{
+    "back": "Back",
+    "change_language": "Change language",
+    "faq": "Information",
+    "name": "name",
+    "accept": "✅ Accept",
+    "cancel": "❌ Cancel",
+    "delete_photo": "Delete photo",
+    "admin": {
+        "home": "Admin-panel",
+        "create": "Create",
+        "control": "⚙ Control"
+    },
+    "buy": "Buy"
+}

@@ -1,0 +1,4 @@
+{
+    "language_already_exists": "Язык {lang} уже установлен",
+    "success_created": "Успешно создано: {target} с {prop} {value}"
+}

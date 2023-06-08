@@ -1,0 +1,4 @@
+{
+    "language_already_exists": "The language {lang} is already installed",
+    "success_created": "Success created {target} with {prop} {value}"
+}

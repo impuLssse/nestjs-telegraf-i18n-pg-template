@@ -1,0 +1,8 @@
+{
+    "scenes": {
+        "home": "home",
+        "faq": "faq",
+        "admin": "admin",
+        "change_language": "change_language"
+    }
+}

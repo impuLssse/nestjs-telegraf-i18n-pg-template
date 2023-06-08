@@ -1,0 +1,75 @@
+{
+    "name": "bot-shop",
+    "author": "impuLssse",
+    "private": true,
+    "license": "UNLICENSED",
+    "scripts": {
+        "build": "nest build",
+        "start": "nest start",
+        "dev": "nest start --watch",
+        "start:debug": "nest start --debug --watch",
+        "start:prod": "node dist/main",
+        "db:push": "npx prisma db push --schema src/core/prisma/schema.prisma",
+        "db:pull": "npx prisma db push --schema src/core/prisma/schema.prisma",
+        "db:gen": "npx prisma migrate dev --schema src/core/prisma/schema.prisma"
+    },
+    "dependencies": {
+        "@nestjs/axios": "^2.0.0",
+        "@nestjs/common": "^9.0.0",
+        "@nestjs/config": "^2.3.2",
+        "@nestjs/core": "^9.0.0",
+        "@nestjs/platform-express": "^9.0.0",
+        "@prisma/client": "^4.15.0",
+        "@telegraf/session": "^2.0.0-beta.6",
+        "axios": "^1.4.0",
+        "class-transformer": "^0.5.1",
+        "kysely": "^0.23.5",
+        "nestjs-i18n": "^10.2.6",
+        "nestjs-telegraf": "^2.6.3",
+        "pg": "^8.11.0",
+        "reflect-metadata": "^0.1.13",
+        "rxjs": "^7.2.0",
+        "telegraf": "^4.12.2",
+        "telegram-keyboard": "^2.3.2"
+    },
+    "devDependencies": {
+        "@nestjs/cli": "^8.2.5",
+        "@nestjs/schematics": "^9.0.0",
+        "@nestjs/testing": "^9.0.0",
+        "@types/express": "^4.17.13",
+        "@types/node": "18.15.11",
+        "@types/pg": "^8.10.1",
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^8.0.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "prettier": "^2.3.2",
+        "prisma": "^4.15.0",
+        "source-map-support": "^0.5.20",
+        "ts-loader": "^9.2.3",
+        "ts-node": "^10.0.0",
+        "tsconfig-paths": "4.2.0",
+        "typescript": "^4.7.4"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "js",
+            "json",
+            "ts"
+        ],
+        "rootDir": ".",
+        "testRegex": ".*\\.spec\\.ts$",
+        "transform": {
+            "^.+\\.(t|j)s$": "ts-jest"
+        },
+        "collectCoverageFrom": [
+            "**/*.(t|j)s"
+        ],
+        "coverageDirectory": "./coverage",
+        "testEnvironment": "node",
+        "roots": [
+            "<rootDir>/src/"
+        ]
+    }
+}

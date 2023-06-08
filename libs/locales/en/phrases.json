@@ -1,0 +1,20 @@
+{
+    "home": "🔥 Sap, {username}. It BabyBotikShop, here you can buy any product for your desire",
+    "change_language": "📚 Choose your preferred language",
+    "faq": "🔍 Frequently asked questions",
+    "admin": "Admin panel",
+    "error": "Woops, i don't understand your request",
+    "if_you_want_image": "If you want to attach a picture, just send it to me",
+    "statuses": {
+        "creation": "📋 Confirm creation for <b>{target}</b>\n\n",
+        "pending-enter": "✏ Enter {prop} for {target}"
+    },
+    "templates": {
+        "item-value": "<b>⚙ {item}</b>\n<pre>{value}</pre>\n\n",
+        "item-values-2": "<b>⚙ {item1}</b>\n<pre>{value1}</pre>\n\n<b>⚙ {item2}</b>\n<pre>{value2}</pre>\n\n"
+    },
+    "objects": {
+        "name": "name",
+        "description": "description"
+    }
+}
