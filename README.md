@@ -1,7 +1,5 @@
 # :sparkles: Стартовый шаблон для бота
 
-В планах сделать функционал: товары, админка, платежка, рассылка, промокоды
-
 ## Технологии
 
 ## NestJS, PostgreSQL, Prisma, nestjs-telegraf, telegram-keyboard
